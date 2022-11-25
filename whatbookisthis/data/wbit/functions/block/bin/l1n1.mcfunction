@@ -1,0 +1,2 @@
+execute unless score .slot wbit.global matches 3 store success score @s wbit.book run data modify storage wbit:data temp.book set from block ~ ~ ~ Items[{Slot:2b}]
+execute if score .slot wbit.global matches 3 store success score @s wbit.book run data modify storage wbit:data temp.book set from block ~ ~ ~ Items[{Slot:3b}]

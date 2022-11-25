@@ -1,0 +1,17 @@
+{
+    "display": {
+        "title": "What Book is This?",
+        "description": "Display informaton about books in bookshelves",
+        "icon": {
+            "item": "minecraft:book"
+        },
+        "announce_to_chat": false,
+        "show_toast": false
+    },
+    "parent": "global:oligo",
+    "criteria": {
+        "trigger": {
+            "trigger": "minecraft:tick"
+        }
+    }
+}

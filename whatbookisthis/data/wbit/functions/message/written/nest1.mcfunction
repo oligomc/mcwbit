@@ -1,0 +1,3 @@
+execute if score .customName wbit.global matches 1 run data modify storage wbit:data temp.message set value '{"nbt":"temp.book.tag.display.Name", "storage":"wbit:data", "interpret":"true"}'
+execute unless score .customName wbit.global matches 1 if score .title wbit.global matches 1 run data modify storage wbit:data temp.message set value '{"nbt":"temp.book.tag.title", "storage":"wbit:data", "color":"white"}'
+execute unless score .customName wbit.global matches 1 unless score .title wbit.global matches 1 run data modify storage wbit:data temp.message set value '{"text":"Writable Book", "color":"white"}'
